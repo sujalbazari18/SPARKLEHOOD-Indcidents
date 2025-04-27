@@ -3,7 +3,7 @@ import jwt from 'jsonwebtoken';
 import User from '../models/user.model';
 
 // Secret key for JWT
-const JWT_SECRET = process.env.JWT_SECRET || 'sujal123';
+const JWT_SECRET = process.env.JWT_SECRET || 'fearisreal';
 
 // Register a new user
 export const register = async (req: Request, res: Response): Promise<void> => {

@@ -2,7 +2,7 @@ import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
 
 // JWT secret key
-const JWT_SECRET = process.env.JWT_SECRET || 'sujal123';
+const JWT_SECRET = process.env.JWT_SECRET || 'fearisreal';
 
 // Interface for JWT payload
 interface JWTPayload {

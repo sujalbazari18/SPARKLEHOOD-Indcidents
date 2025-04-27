@@ -1,7 +1,9 @@
 import mongoose from 'mongoose';
-// NOTE: Replace <db_password> with your actual MongoDB Atlas password
+
+// MongoDB URI
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/incident';
 
+// Connect to MongoDB
 const connectDB = async () => {
     try {
         await mongoose.connect(MONGO_URI, {
@@ -16,4 +18,4 @@ const connectDB = async () => {
     }
 };
 
-export default connectDB;
+export default connectDB;   

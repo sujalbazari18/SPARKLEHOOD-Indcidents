@@ -136,6 +136,7 @@ const deleteIncident = async (req: Request, res: Response): Promise<void> => {
   }
 };
 
+// export all the functions
 export {
   createIncident,
   getAllIncidents,
