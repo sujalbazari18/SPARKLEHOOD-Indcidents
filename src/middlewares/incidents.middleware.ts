@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 
-// Validate incident data
+// Validate incident data middleware
 export const validateIncidentData = (req: Request, res: Response, next: NextFunction): void => {
   const { title, description, severity, incidentType } = req.body;
   
@@ -28,7 +28,7 @@ export const validateIncidentData = (req: Request, res: Response, next: NextFunc
   next();
 };
 
-// Handle invalid MongoDB ID format
+// Handle invalid MongoDB ID format middleware  
 export const validateObjectId = (req: Request, res: Response, next: NextFunction): void => {
   const { id } = req.params;
   

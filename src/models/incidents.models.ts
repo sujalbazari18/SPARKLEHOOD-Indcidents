@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+// incident schema
 const incidentSchema = new mongoose.Schema({
     title: {
         type: String,

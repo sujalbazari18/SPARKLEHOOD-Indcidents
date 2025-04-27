@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 // NOTE: Replace <db_password> with your actual MongoDB Atlas password
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://bazarisujal8815:xCR2gY0I2ObD2mKC@incident.9zfajd1.mongodb.net/?retryWrites=true&w=majority&appName=INCIDENT';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/incident';
 
 const connectDB = async () => {
     try {

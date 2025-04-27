@@ -9,6 +9,7 @@ export interface IUser extends mongoose.Document {
   comparePassword(candidatePassword: string): Promise<boolean>;
 }
 
+// user schema
 const userSchema = new mongoose.Schema({
   username: {
     type: String,

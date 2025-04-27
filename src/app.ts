@@ -8,6 +8,7 @@ import cors from 'cors';
 // Load environment variables
 dotenv.config();
 
+// Create express app
 const app = express();
 
 // Connect to database
