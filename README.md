@@ -1,4 +1,5 @@
-# Incident Management Backend
+# HumanChain AI Safety Incident Log API
+
 
 A robust backend system for managing and tracking AI incidents, built with Node.js, Express, TypeScript, and MongoDB.
 
@@ -34,8 +35,8 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/incident-management-backend.git
-   cd incident-management-backend
+   git clone https://github.com/sujalbazari18/SPARKLEHOOD-Indcidents.git
+   cd SPARKLEHOOD-Indcidents
    ```
 
 2. **Install dependencies**
@@ -49,7 +50,7 @@ Before you begin, ensure you have the following installed:
    ```
    PORT=5000
    MONGO_URI=mongodb://localhost:27017/incident-management
-   JWT_SECRET=your_jwt_secret_key_here
+   JWT_SECRET=fearisreal
    ```
 
 ## 🗄️ Database Setup
